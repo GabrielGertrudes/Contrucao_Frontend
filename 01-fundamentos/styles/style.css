@@ -1,0 +1,92 @@
+/* Reset do CSS Padrão dos items */
+* {
+    margin: 0 auto;
+}
+
+/* Selecionado Tag */
+body {
+    padding-bottom: 500px;
+}
+
+h2 {
+    font-size: 22px;
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
+
+
+/* Selecionando classe */
+.cor-laranja {
+    color: orange;
+}
+
+/* Selecionando Identificado */
+#ultimo-titulo {
+    color: black;
+}
+
+.fundo-azul {
+    background-color: blue;
+}
+
+.texto-pequeno,
+#meu-paragrafo {
+    font-size: 8px;
+}
+
+#minha-div {
+    background-image: url('../assets/imagem_fundo.jpg');
+    padding: 20px;
+}
+
+#altura-largura {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
+
+#div-espacamento {
+    background-color: aqua;
+    padding: 10px 20px 10px 20px;
+}
+
+#div-margem {
+    background-color: aqua;
+    margin: 10px 20px 10px 20px;
+}
+
+#div-borda {
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    /* border: 3px solid black; */
+    border: 3px dashed black;
+}
+
+#div-arredondamento-borda {
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+.meu-texto {
+    background-color: darkgrey;
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+    color: blue;
+    text-decoration: line-through;
+    /* text-decoration: none; */
+}
+
+.meu-link {
+    text-decoration: none;
+    color: black;
+}
