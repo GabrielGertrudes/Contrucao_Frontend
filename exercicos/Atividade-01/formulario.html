@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        textarea {
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de usuario</h1>
+    <form>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+        <br>
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+        <br>
+        <div>
+            <label>Sexo:</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo" value="feminino">
+            <label for="feminino">Feminino</label>
+        </div>
+        <br>
+        <div>
+            <label for="uf">UF:</label>
+            <select id="uf" name="uf">
+                <option value="df">DF</option>
+                <option value="df">Go</option>
+            </select>
+        </div>
+        <br>
+        <div class="div-input">
+            <label for="hoobies">Hobbies</label>
+            <fieldset>
+              <input type="checkbox" name="hobbies" value="futebol">Futebol
+              <input type="checkbox" name="hobbies" value="xadrez">Xadrez
+              <input type="checkbox" name="hobbies" value="esportes">Esportes
+              <input type="checkbox" name="hobbies" value="musica">Musica
+              <input type="checkbox" name="hobbies" value="cinema">Cinema
+              <input type="checkbox" name="hobbies" value="leitura">Leitura
+            </fieldset>
+          </div>
+    
+        <br>
+        <div>
+            <label for="observacao">Observação:</label><br>
+            <textarea id="observacao" name="observacao"></textarea>
+        </div>
+        <div>
+            <input type="button" value="Voltar">
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Salvar">
+        </div>
+    </form>
+</body>
+</html>
