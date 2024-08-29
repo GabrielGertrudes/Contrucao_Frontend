@@ -9,6 +9,7 @@
 
 - Material Icon Theme (Extensão das pastas)
 - Live Preview
+VS Code ES7+ React/Redux/React-Native/JS snippets
 
 ## Revisão
 

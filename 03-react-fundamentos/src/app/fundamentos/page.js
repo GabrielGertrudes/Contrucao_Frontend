@@ -1,11 +1,10 @@
 import MeuComponente from "./MeuComponente";
 import NumeroMaior from "./NumeroMaior";
+import NumeroMaior from "./NumeroAleatorio";
 
 
 export default function Fundamentos() {
     
-
-
     return (
         <>
             {/* Comentários no JSX */}
@@ -23,13 +22,8 @@ export default function Fundamentos() {
             <NumeroMaior numA={1140} numB={10} />
             <NumeroMaior numA={222} numB={666} />
 
-
-            
-            
+            <hr />
             
         </>
     )
-
-
-
 }
