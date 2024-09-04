@@ -1,16 +1,20 @@
+import Pagina from "../components/Pagina";
+import Cabecalho from "./Cabecalho";
+import Familia from "./Familia";
+import Filho from "./Filho";
+import ImagemAleatoria from "./ImagemAleatoria";
 import MeuComponente from "./MeuComponente";
+import NumeroAleatorio from "./NumeroAleatorio";
 import NumeroMaior from "./NumeroMaior";
-import NumeroMaior from "./NumeroAleatorio";
 
 
 export default function Fundamentos() {
-    
+
     return (
-        <>
+        <Pagina titulo="Fundamentos">
             {/* Comentários no JSX */}
 
-            <h1>Página Fundamentos</h1>
-            <hr />
+            <Cabecalho titulo="Fundamentos" descricao="Página de fundamentos de React/Next" />
 
             <MeuComponente />
             <hr />
@@ -23,7 +27,42 @@ export default function Fundamentos() {
             <NumeroMaior numA={222} numB={666} />
 
             <hr />
+
+            <NumeroAleatorio />
+            <NumeroAleatorio />
+            <NumeroAleatorio />
+            <NumeroAleatorio />
+
+            <hr />
+
+            <Familia nomeFamilia="Soares">
+                <Filho nome="Júlia" sobreNome="Soares" />
+                <Filho nome="João" sobreNome="Soares" />
+                <Filho nome="Maria" sobreNome="Soares" />
+                <Filho nome="Jorge" sobreNome="Soares" />
+            </Familia>
             
-        </>
+            <Familia nomeFamilia="Xororô">
+                <Filho nome="Sandy" sobreNome="Xororô"></Filho>
+                <Filho nome="Junior" sobreNome="Xororô"></Filho>
+            </Familia>
+
+            <hr />
+
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+            <ImagemAleatoria />
+
+            
+
+
+        </Pagina>
     )
+
+
+
 }
