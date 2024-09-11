@@ -8,8 +8,18 @@ export default function page() {
 
     const [contador, setContador] = useState(0)
 
+    const [pokemon, setPokemon] = useState('????????')
+
+    function alterarPokemon(){
+        setPokemon('Pikachu')
+    }
+
+    function alterarPokemon2() {
+        setPokemon('Charlizard')
+    }
+
     function incrementar() {
-        if (contador < 10) {
+        if (contador < 100) {
             setContador(contador + 1)
         }
     }
@@ -28,6 +38,12 @@ export default function page() {
                     <h2>Volume: {contador}</h2>
                     <Button onClick={decrementar} >diminuir</Button>
                 </Col>
+            </Row>
+            <hr></hr>
+            <Row>
+                <h2>O pokemon é {pokemon}</h2>
+                <Button onClick={alterarPokemon}>Mostrar</Button>
+                <Button onClick={alterarPokemon2}>Mostrar 2</Button>
             </Row>
         </Pagina>
     )
