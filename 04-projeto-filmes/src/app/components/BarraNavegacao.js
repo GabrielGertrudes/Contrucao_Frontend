@@ -19,11 +19,14 @@ export default function BarraNavegacao() {
                         {/* Menu Dropdown */}
                         <NavDropdown title="Filmes" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/filmes">Filmes Populares</NavDropdown.Item>
+                            <NavDropdown.Item href="/filmes/top">Melhores Avaliados</NavDropdown.Item>
+                            <NavDropdown.Item href="/filmes/cartaz">Em Cartaz</NavDropdown.Item>
+                            <NavDropdown.Item href="/filmes/lancamentos">Nos Cinemas</NavDropdown.Item>
                         </NavDropdown>
 
                         {/* LINKS */}
                         <Nav.Link href="/">Home</Nav.Link>
-                        
+
 
                     </Nav>
                 </Navbar.Collapse>
