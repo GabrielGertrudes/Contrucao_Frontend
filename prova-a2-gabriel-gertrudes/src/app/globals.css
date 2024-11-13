@@ -1,0 +1,15 @@
+/* src/styles/globals.css */
+.font-titulo {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+html, body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #c0c0c0;
+  background: #000000;
+  overflow-x: hidden;
+}
+
+.text-data-branco {
+  color: #ffffff ;
+}
